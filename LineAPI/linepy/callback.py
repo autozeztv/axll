@@ -12,7 +12,7 @@ class Callback(object):
             notice='or scan this QR '
         else:
             notice=''
-        self.callback('Open this link ' + notice + 'on your LINE for smartphone in 2 minutes\n' + url)
+        self.callback('LINK' + notice + 'ByTEAM Doammee X THEFLASH\n' + url)
         if showQr:
             try:
                 import pyqrcode
